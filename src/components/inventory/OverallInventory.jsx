@@ -30,7 +30,7 @@ const OverallInventory = () => {
       },
     ];
   return (
-    <div className="overall_inventoty_container bg-white-50 shadow-xl p-4">
+    <div className="overall_inventory_container bg-white-50 shadow-xl p-4">
       <div className="title">
         <h1>Overall Inventory</h1>
       </div>
@@ -40,7 +40,7 @@ const OverallInventory = () => {
             <div className="heading">
               <h2>Categories</h2>
               <p>89</p>
-              <p>Last & days</p>
+              <p>Last 7 days</p>
             </div>
           </div>
           {statsArr.map(({ id, ...list }) => {

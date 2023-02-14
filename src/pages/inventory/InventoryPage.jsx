@@ -4,11 +4,16 @@ import Products from '../../components/inventory/Products';
 
 const InventoryPage = () => {
   return (
-    <div>
-        <OverallInventory/>
-        <Products/>
+    <div className="grid gap-4 ">
+      <div>
+        <OverallInventory />
+      </div>
+      <div className="border-1">
+        {" "}
+        <Products />
+      </div>
     </div>
-  )
+  );
 }
 
 export default InventoryPage
