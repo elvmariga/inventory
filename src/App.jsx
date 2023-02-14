@@ -17,6 +17,7 @@ import SignupPage from "./pages/auth/SignupPage";
 import NavigationPage from "./pages/navigation/NavigationPage";
 import DashboardPage from "./pages/dashboard/DashboardPage";
 import InventoryPage from "./pages/inventory/InventoryPage";
+import ReportsPage from "./pages/reports/ReportsPage";
 
 function App() {
   return (
@@ -54,6 +55,10 @@ function App() {
           {
             element: <InventoryPage/>,
             path: "/inventory",
+          },
+          {
+            element: <ReportsPage/>,
+            path: "/reports",
           },
         ],
       }}
