@@ -36,7 +36,7 @@ export const options = {
 };
 
 
-// const labels = ['January', 'February', 'March', 'April', 'May', 'June', 'July'];
+
 
 const data = {
     labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
@@ -47,7 +47,18 @@ const data = {
         fill: false,
         borderColor: 'rgb(75, 192, 192)',
         tension: 0.1
-      }
+      },
+
+      {
+        label: 'My second Dataset',
+        data: [35, 69, 70, 91, 46, 65, 50],
+        fill: false,
+        borderColor: 'rgb(255, 99, 132)',
+        tension: 0.1
+      },
+
+
+      
     ]
   };
   
