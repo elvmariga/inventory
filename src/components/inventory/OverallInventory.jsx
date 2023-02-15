@@ -1,5 +1,6 @@
 import React from 'react'
 import { StatsCard } from './StatsCard';
+import AddItemForm from './AddItemForm';
 
 const OverallInventory = () => {
 
@@ -52,6 +53,7 @@ const OverallInventory = () => {
           })}
         </div>
       </div>
+      <AddItemForm/>
     </div>
   );
 }
