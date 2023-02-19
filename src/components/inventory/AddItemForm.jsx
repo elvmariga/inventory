@@ -58,10 +58,7 @@ const AddItemForm = (props) => {
                   />
                   {file && (
                     <div>
-                      <img
-                        src={URL.createObjectURL(file)}
-                        alt="Selected picture"
-                      />
+                      <img src={URL.createObjectURL(file)} alt="upload icon" />
                     </div>
                   )}
                 </div>
